@@ -1,1 +1,31 @@
+.obj-fit{
+    object-fit: contain;
+    object-position: center;
+}
 
+
+@media (min-width:480px) {
+    .header_container{
+        margin:0 auto;
+        max-width: 960px;
+    }
+    .footer_container{
+        margin:0 auto;
+        max-width: 960px;
+    }
+    .container{
+        margin:0 auto;
+        max-width: 960px;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu_list{
+        flex-direction: row;
+    }
+    table{
+        order: 4;
+    }
+    #form{
+        order:3;
+    }
+}
