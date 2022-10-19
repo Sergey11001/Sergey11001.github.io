@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <label>
+        <input type="number" class="col" value="0" placeholder="Колличество">
+    </label>
+    <select class="selector">
+        <option class="option option_1" value="1" selected>Стул</option>
+        <option class="option option_2" value="2" >Чайник</option>
+        <option class="option option_3" value="3">Кровать</option>
+    </select>
+    <div class="select_options" style="display: none">
+        <label>
+            <input class="radio" type="radio" name="color" checked value="bron">
+            Бронзовый
+        </label>
+        <label>
+            <input class="radio" type="radio" name="color" value="ser">
+            Серебряный
+        </label>
+        <label>
+            <input class="radio" type="radio" name="color" value="gold">
+            Золотой
+        </label>
+    </div>
+    <div class="delivery_check" style="display: none">
+        <label>
+            <input type="checkbox" class="delivery" value="deliver" name="deliver">
+            Доставка
+        </label>
+    </div>
+
+</form>
+<p>Итоговая стоимость: <span class="price">0</span></p>
+
+<script src="lesson6.js"></script>
+</body>
+</html>
