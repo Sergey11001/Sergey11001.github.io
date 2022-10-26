@@ -1,0 +1,39 @@
+
+*,*:after,*:before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    padding: 30px;
+}
+
+.image_slider{
+    height: 300px;
+}
+.image_slide_image{
+    height: 250px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.image_slide_image img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.image_slide_image img{
+    max-width: 100%;
+}
+.swiper-button-prev,.swiper-button-next{
+    transform: translate(-40%,-40%);
+}
