@@ -35,5 +35,5 @@ body,html{
     max-width: 100%;
 }
 .swiper-button-prev,.swiper-button-next{
-    transform: translate(-40%,-40%);
+    transform: translateY(-50%);
 }
