@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Popup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lesson8.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <button class="btn_open_popup">
+            Открыть форму
+        </button>
+    </header>
+</div>
+<div class="popup_wrapper">
+    <div class="popup_content">
+        <div class="cross">
+
+        </div>
+        <form action="#" accept-charset="UTF-8">
+            <div class="input_block">
+                <label class="input_title">
+                    Имя
+                    <input type="text" class="input_val" name="name">
+                </label>
+            </div>
+            <div class="input_block">
+                <label class="input_title">
+                    E-mail
+                    <input type="email" class="input_val" name="email">
+                </label>
+            </div>
+            <div class="input_block">
+                <label class="input_title">
+                    Сообщение
+                    <textarea name="message" class="input_val textarea"></textarea>
+                </label>
+            </div>
+            <label class="input_title">
+                <input type="checkbox" class="check_box" name="agree" required>
+                Согласие с политикой обработки персональных данных
+            </label>
+            <input type="hidden" name="_gotcha">
+            <button class="sub" type="submit">Отправить</button>
+        </form>
+    </div>
+</div>
+
+
+
+<script src="lesson8.js"></script>
+</body>
+</html>
